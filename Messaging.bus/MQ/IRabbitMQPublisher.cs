@@ -1,4 +1,6 @@
-﻿namespace Messaging.bus.MQ;
+﻿using System.Threading.Tasks;
+
+namespace Messaging.bus.MQ;
 
 public interface IRabbitMQPublisher<T>
 {
