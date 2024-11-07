@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "Messaging.bus.Controllers.HomeController",
+    "Method": "PublishMessage",
+    "RelativePath": "api/Home/PublishMessage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
