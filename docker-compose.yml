@@ -1,0 +1,13 @@
+services:
+  MessagingBus:
+    image: ${DOCKER_REGISTRY-}messagingbus
+    build:
+      context: .
+      dockerfile: Messaging.bus/Dockerfile
+    depends_on:
+      - rabbitmq
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    
+
+  

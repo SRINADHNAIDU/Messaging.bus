@@ -13,6 +13,7 @@ public class HomeController : ControllerBase
     {
         this.service = service;
     }
+    
     [HttpGet("PublishMessage")]
     public async Task<IActionResult> PublishMessage()
     {

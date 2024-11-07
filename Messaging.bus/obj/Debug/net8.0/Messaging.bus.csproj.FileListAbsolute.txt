@@ -35,3 +35,4 @@ D:\Code\Learning\MessagingBus\Messaging.bus\Messaging.bus\obj\Debug\net8.0\refin
 D:\Code\Learning\MessagingBus\Messaging.bus\Messaging.bus\obj\Debug\net8.0\Messaging.bus.pdb
 D:\Code\Learning\MessagingBus\Messaging.bus\Messaging.bus\obj\Debug\net8.0\Messaging.bus.genruntimeconfig.cache
 D:\Code\Learning\MessagingBus\Messaging.bus\Messaging.bus\obj\Debug\net8.0\ref\Messaging.bus.dll
+D:\Code\Learning\MessagingBus\Messaging.bus\Messaging.bus\obj\Debug\net8.0\Messaging.bus.sourcelink.json
