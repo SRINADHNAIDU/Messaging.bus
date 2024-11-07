@@ -1,0 +1,10 @@
+@Messaging.bus_HostAddress = https://localhost:7077
+
+GET {{Messaging.bus_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{Messaging.bus_HostAddress}}/api/Home/PublishMessage
+
+###
