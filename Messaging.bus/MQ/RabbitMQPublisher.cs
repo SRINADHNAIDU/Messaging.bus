@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using RabbitMQ.Client;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Messaging.bus.MQ;
 

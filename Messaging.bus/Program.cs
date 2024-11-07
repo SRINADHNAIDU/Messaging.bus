@@ -1,7 +1,10 @@
 using Messaging.bus.Models;
 using Messaging.bus.MQ;
 using Messaging.bus.Services;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,9 +1,15 @@
-﻿using Messaging.bus.Models;
+﻿using System;
+using Messaging.bus.Models;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using RabbitMQ.Client.Events;
 using RabbitMQ.Client;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
 namespace Messaging.bus.MQ;
 
